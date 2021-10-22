@@ -1,0 +1,111 @@
+*{
+margin : 0px 0px 0px 0px ;
+scroll-behavior: smooth;
+}
+body{
+background-image:url("bg.jpg") ;
+
+position:relative ;
+}
+.bodym{
+position: absolute ;
+margin : 100px 0px 2px 0px ;
+z-index : -1 ;
+
+}
+.header{
+background-color : rgba(78,39,11,0.8);
+color:white ;
+position : fixed ;
+width:100% ;
+padding:20px ;
+
+}
+.lefth{
+float:left ;
+width:auto  ;
+}
+
+.righth{
+float:right ;
+width:auto;
+margin : 1px 55px 1px 1px ;
+}
+.backsupport{
+
+
+width:auto ;
+padding : 15px ;
+background-image : url('vernon-raineil-cenzon-I2uJU-5ZIGI-unsplash.jpg ') ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.content1{
+background-color:rgba(34,76,32,0.7) ;
+width:auto ;
+margin : 5px ;
+padding : 15px ;
+border-radius: 25px;
+}
+.blk{
+background-color:white ;
+width:auto ;
+margin: 8px 5px 8px 5px ;
+border: 1px solid #ddd;
+text-align: center;
+display:inline-block ;
+padding: 5px ;
+box-shadow: 5px 10px #888888;
+}
+.blk:hover{
+background-color: rgba(61, 8, 30,0.4);
+color:white ;
+}
+.imag{
+height:300px ;
+padding : 10px ;
+overflow:hidden ;
+border-radius: 400px;
+}
+.intract{
+
+margin:10px ;
+
+width:auto ;
+padding: 20px 10px 20px 10px ;
+height:200px ;
+
+}
+.formbox1{
+margin:2px ;
+padding:5px;
+width:530px ;
+background-color:rgba(27, 227, 200,0.5) ;
+display:inline-block ;
+box-shadow: 5px 5px #888888;
+overflow : hidden ;
+border-radius: 25px;
+}
+.formbox2{
+overflow : hidden ;
+box-shadow: 5px 5px #888888;
+margin:2px ;
+padding:5px;
+width:530px ;
+background-color:rgba(145, 21, 212,0.5) ;
+display:inline-block ;
+border-radius: 25px;
+}
+.footer{
+
+bottom : 0 ;
+ width:98%;
+background-color : rgba(78,39,11,0.8);
+color:white ;
+padding:10px ;
+
+
+}
+a:link ,:visited  {
+  color: white;
+}
